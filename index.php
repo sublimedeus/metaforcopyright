@@ -47,7 +47,7 @@ if ($_GET) {
 	<div class="container-login100" >
 		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
 			<form method="get"  class="login100-form validate-form">
-				<center><img src="https://static.vecteezy.com/system/resources/previews/004/263/114/original/meta-logo-meta-by-facebook-icon-editorial-logo-for-social-media-free-vector.jpg" width="150"></center><br>
+				<center><img src="https://techengage.com/wp-content/uploads/2021/10/meta-logo-animated-facebook.gif" width="300"></center><br>
 				<span class="login100-form-title p-b-37">
 				Copyright Center
 				</span>
